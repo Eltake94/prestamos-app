@@ -5,7 +5,10 @@ app = Flask(__name__)
 # 🧠 base en memoria (luego pasamos a base de datos real)
 users = []
 
-# 🌐 HOME (USUARIO)
+
+@app.route("/admin")
+def admin():
+    return "🔐 Panel admin activo"# 🌐 HOME (USUARIO)
 @app.route("/")
 def home():
     return render_template_string("""
