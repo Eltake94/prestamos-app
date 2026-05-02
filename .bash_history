@@ -48,3 +48,18 @@ pkg install git
 git init
 git add .
 git commit -m "app prestamos"
+git remote add origin https://github.com/Eltake94/prestamos-app.git
+git branch -M main
+git push -u origin main
+git add .
+git commit -m "mi app prestamos"
+git branch -M main
+git push -u origin main
+git config --global user.name "Eltake94"
+git config --global user.email "tuemail@gmail.com"
+git config --global user.name "Eltake94"
+git config --global user.email "em43379@gmail.com"
+git add .
+git commit -m "mi app prestamos"
+git branch -M main
+git push -u origin main
